@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'Latherrich';
+    src: url(/src/assets/fonts/Latherrich-Regular.woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Latherrich';
+    src: url(/src/assets/fonts/Latherrich-Bold.woff2);
+    font-weight: bold;
+}
+.definition-container {
+    width: 80%;
+    margin: auto;
+    font-family: 'Latherrich';
+    background-color: white;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border-radius: 1em;
+}
+.definition-container-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2em;
+}
+.definition-container-top img {
+    width: 50em;
+    height: 30em;
+    border-radius: 1em;
+    margin-bottom: 2em;
+}
+.definition-container-top h3 {
+    font-size: 2.5em;
+    color: #B20D15;
+    margin-bottom: 1.5em;
+}
+
+.definition-container-top p {
+    margin-top: 2em;
+    font-size: 1.3em;
+    color: #B40D2B;
+    padding: 0em 2em;
+}
+
+.definition-container-bottom {
+    display: flex;
+    align-items: center;
+    padding: 0em 3em;
+    margin-bottom: 3em;
+}
+.definition-container-bottom-left{
+    margin-right: 5em;
+}
+.definition-container-bottom-left p {
+    width: 46em;
+    font-size: 1.3em;
+    font-style: italic;
+    line-height: 1.3em;
+}
+.definition-container-bottom-left span {
+    font-size: 1.3em;
+    color: #B40D2B;
+}
+.definition-container-bottom-right img {
+    width: 20em;
+    height: 25em;
+    border-radius: 100%;
+}

@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'Latherrich';
+    src: url(/src/assets/fonts/Latherrich-Regular.woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Latherrich';
+    src: url(/src/assets/fonts/Latherrich-Bold.woff2);
+    font-weight: bold;
+}
+
+.exponents-container {
+    width: 80%;
+    margin: auto;
+    font-family: 'Latherrich';
+    background-color: white;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border-radius: 1em;
+}
+
+.exponents-container h3 {
+    font-size: 2.5em;
+    color: #B20D15;
+    margin-bottom: 0.8em;
+}
+
+h4 {
+    color: #B40D2B;
+    font-size: 1.8em;
+}
+
+.exponents-container-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.montesquieu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0em 2em;
+}
+
+.montesquieu-body {
+    display: flex;
+    align-items: center;
+}
+
+.montesquieu-body img {
+    width: 20em;
+    border-radius: 100%;
+}
+
+ul {
+    width: 40em;
+    font-size: 1.3em;
+    color: #B40D2B;
+    margin-right: 3em;
+}
+
+li {
+    margin-bottom: 1.5em;
+}
+
+.rousseau {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0em 2em;
+}
+
+.rousseau-body {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.rousseau-body img {
+    width: 19em;
+    border-radius: 100%;
+    margin-right: 5em;
+}
+
+.voltaire {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0em 2em;
+    margin-bottom: 8em;
+}
+
+.voltaire-body {
+    display: flex;
+    align-items: center;
+}
+
+.voltaire-body img {
+    width: 21em;
+    border-radius: 100%;
+}

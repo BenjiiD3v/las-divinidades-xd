@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Latherrich';
+    src: url(/src/assets/fonts/Latherrich-Regular.woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Latherrich';
+    src: url(/src/assets/fonts/Latherrich-Bold.woff2);
+    font-weight: bold;
+}
+
+.groups-container {
+    width: 80%;
+    margin: auto;
+    font-family: 'Latherrich';
+    background-color: white;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border-radius: 1em;
+}
+
+.groups-container h3 {
+    font-size: 2.5em;
+    color: #B20D15;
+    margin-bottom: 1em;
+}
+
+.groups-container-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.groups-container-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.societies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tertulies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5em;
+}
+
+h4 {
+    color: #B40D2B;
+    font-size: 1.8em;
+}
+
+.societies img {
+    width: 40em;
+    border-radius: 1em;
+}
+
+.tertulies img {
+    width: 40em;
+    border-radius: 1em;
+}
+
+.logias img {
+    width: 42em;
+    border-radius: 1em;
+}
+
+p {
+    color: #B40D2B;
+    font-size: 1.3em;
+    margin-top: 2em;
+}

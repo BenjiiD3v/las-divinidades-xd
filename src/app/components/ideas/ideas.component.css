@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'Latherrich';
+    src: url(/src/assets/fonts/Latherrich-Regular.woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Latherrich';
+    src: url(/src/assets/fonts/Latherrich-Bold.woff2);
+    font-weight: bold;
+}
+
+.ideas-container {
+    width: 80%;
+    margin: auto;
+    font-family: 'Latherrich';
+    background-color: white;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border-radius: 1em;
+}
+
+.ideas-container h3 {
+    font-size: 2.5em;
+    color: #B20D15;
+    margin-bottom: 1.5em;
+}
+.ideas-container-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ideas-container-center {
+    display: flex;
+    justify-content: center;
+}
+
+.rationalism {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0em 1em;
+}
+
+h4 {
+    color: #B20D15;
+    font-size: 1.8em;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.rationalism ul {
+    background-color: #B20D15;
+    font-size: 1.2em;
+    padding: 1em 1em;
+    color: white;
+    border-radius: 1em;
+    padding-left: 2em;
+}
+
+.naturalism ul {
+    background-color: #B20D15;
+    font-size: 1.2em;
+    padding: 1em 1em;
+    color: white;
+    border-radius: 1em;
+    padding-left: 2em;
+}
+
+.faith-progress ul {
+    background-color: #B20D15;
+    font-size: 1.2em;
+    padding: 1em 1em;
+    color: white;
+    border-radius: 1em;
+    padding-left: 2em;
+}
+
+.naturalism {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0em 1em;
+    margin-top: 7em;
+}
+
+.faith-progress {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0em 1em;
+}
+
+.rationalism img {
+    width: 20em;
+}
+
+.naturalism img {
+    width: 20em;
+    border-radius: 1em;
+}
+
+.faith-progress img {
+    width: 20em;
+    border-radius: 1em;
+}
+
+.ideas-container-bottom {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8em;
+}
+
+.happiness-search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0em 1em;
+}
+
+.education {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0em 1em;
+    margin-top: 7em;
+}
+
+.laicism {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0em 1em;
+}
+
+.happiness-search ul {
+    background-color: #B20D15;
+    font-size: 1.2em;
+    padding: 1em 1em;
+    color: white;
+    border-radius: 1em;
+    padding-left: 2em;
+}
+
+.education ul {
+    background-color: #B20D15;
+    font-size: 1.2em;
+    padding: 1em 1em;
+    color: white;
+    border-radius: 1em;
+    padding-left: 2em;
+}
+
+.laicism ul {
+    background-color: #B20D15;
+    font-size: 1.2em;
+    padding: 1em 1em;
+    color: white;
+    border-radius: 1em;
+    padding-left: 2em;
+}
+
+.happiness-search img {
+    width: 30em;
+    border-radius: 1em;
+}
+
+.education img {
+    width: 27em;
+    border-radius: 1em;
+}
+
+.laicism img {
+    width: 27em;
+    border-radius: 1em;
+}
+

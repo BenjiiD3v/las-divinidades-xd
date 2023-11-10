@@ -1,20 +1,17 @@
 @font-face {
     font-family: 'Latherrich';
-    src: url(./assets/fonts/Latherrich-Regular.woff2);
+    src: url(/src/assets/fonts/Latherrich-Regular.woff2);
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Latherrich';
-    src: url(./assets/fonts/Latherrich-Bold.woff2);
+    src: url(/src/assets/fonts/Latherrich-Bold.woff2);
     font-weight: bold;
 }
-body {
+.body {
     background-color: #E4E4E4;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
 }
 .width-80 {
     width: 80%;

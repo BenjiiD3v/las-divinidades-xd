@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'Latherrich';
+    src: url(/src/assets/fonts/Latherrich-Regular.woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Latherrich';
+    src: url(/src/assets/fonts/Latherrich-Bold.woff2);
+    font-weight: bold;
+}
+
+.politics-container {
+    width: 80%;
+    margin: auto;
+    font-family: 'Latherrich';
+    background-color: white;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border-radius: 1em;
+}
+
+.politics-container h3 {
+    font-size: 2.5em;
+    color: #B20D15;
+    margin-bottom: 1.5em;
+}
+
+.politics-container-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4em;
+}
+
+.politics-container-top img {
+    border-radius: 1em;
+    margin-bottom: 1em;
+}
+
+.politics-container-center {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.politics-container-center p {
+    width: 40em;
+    border-style: solid;
+    padding: 1em;
+    font-size: 1.2em;
+    color: #B40D2B;
+    margin: 0em 1em;
+    cursor: pointer;
+}
+
+.politics-container-bottom-title {
+    display: flex;
+    justify-content: center;
+}
+
+.politics-container-bottom-title h4 {
+    font-size: 1.8em;
+    color: #B40D2B;
+}
+
+.politics-container-bottom-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.politics-container-bottom-card1 img {
+    width: 20em;
+    border-radius: 1em;
+}
+
+.politics-container-bottom-card2 img {
+    width: 25em;
+    border-radius: 1em;
+}
+
+.politics-container-bottom-card3 img {
+    width: 25em;
+    border-radius: 1em;
+}
+
+.politics-container-bottom-card1 {
+    margin-right: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.politics-container-bottom-card2 {
+    margin-right: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.politics-container-bottom-card3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.politics-container-bottom-cards h4 {
+    font-size: 1.3em;
+}
+
+.three-paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4em;
+}
+
+.three-paragraph p {
+    width: 25em;
+    border-style: solid;
+    padding: 1em;
+    font-size: 1.2em;
+    color: #B40D2B;
+    margin: 0em 1em;
+    cursor: pointer;
+}
+
+.despotism {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+    margin-bottom: 6em;
+    padding: 0em 2em;
+}
+
+.despotism p {
+    color: #B40D2B;
+    font-size: 1.3em;
+    margin-right: 1.8em;
+}
+
+.despotism img {
+    width: 40em;
+    border-radius: 1em;
+}

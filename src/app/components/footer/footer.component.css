@@ -1,0 +1,60 @@
+footer {
+    background-color: #46464E;
+    width: 100%;
+    margin-top: auto;
+    color: white;
+    font-family: 'Latherrich';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 2em;
+}
+.group-members {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: solid;
+    border-width: 1px;
+}
+.group-members h4 {
+   font-size: 1.5em;
+}
+
+footer .group-members div {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .group-members div span {
+    margin-bottom: 1.5em;
+    cursor: pointer;
+    width: 10em;
+}
+
+footer .group-members div span:hover {
+    color: gold;
+    transition: 1s;
+}
+.professor{
+    border-bottom: solid;
+    border-width: 1px;
+    padding-bottom: 2em;
+}
+.professor h4 {
+    font-size: 1.5em;
+}
+
+footer .professor span {
+    cursor: pointer;
+    width: 10em;
+}
+
+footer .professor span:hover {
+    color: gold;
+    transition: 1s;
+}
+
+.credits {
+    margin: 1em 0em;
+}
